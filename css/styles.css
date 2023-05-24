@@ -163,7 +163,7 @@ h3{
 }
 
    /* pag Voluntariado */
-   /* Estilos para el formulario */
+
 .containerform {
     width: 300px;
     margin: 0 auto;
@@ -192,13 +192,44 @@ h3{
     cursor: pointer;
 }
 
-  /* Estilos cuando se pasa el puntero por encima del botón de enviar */
 .form-submit:hover {
     background-color: #45a049;
 }
 
-  /* Estilos para resaltar los cuadros de los campos */
 .form-input:focus {
     outline: none;
     box-shadow: 0 0 5px #4CAF50;
+}
+
+   /* pag censo */
+.card {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card-item {
+    margin-bottom: 5px;
+}
+
+.card-item:nth-child(2) {
+    height: 100px; /* Tamaño de la imagen */
+}
+
+@media (max-width: 992px) {
+    .card {
+    width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+    width: calc(100% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+    padding: 5px;
+    }
 }
