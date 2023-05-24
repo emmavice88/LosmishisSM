@@ -122,27 +122,6 @@ h3{
     font-size: 35px;
 }
 
-.maps{
-    height: 350px;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-}
-
-.subir{
-    height: 25px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    margin: 5px;
-    padding: 5px;
-    border: solid black;
-    display: block;
-}
 
 .redes{
     height: 50px;
@@ -209,7 +188,8 @@ h3{
 }
 
 .card-item {
-    margin-bottom: 5px;
+    margin: 5px;
+    padding: 10;
 }
 
 .card-item:nth-child(2) {
