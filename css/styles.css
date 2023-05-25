@@ -4,11 +4,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
-    margin: 5px;
-    padding: 5px;
-}
-
 .header{
     background-color: #bbbbbbde;
     width: 100%;
@@ -19,7 +14,12 @@ header{
 
 nav{
     width: 100%;
-    height: 45px;
+    height: auto;
+}
+
+main{
+    margin: 10px;
+    padding: 10px;
 }
 
 .liconteiner{
@@ -40,20 +40,21 @@ nav{
     color: black;
 }
 
-.titulo{
-    padding: 15px;
-    height: 650px;
-    background-image: url(../img/fondo.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-
+.imgbienvenida{
+    height: auto;
+    width: 63.5%;
+    border: solid black;
+    margin: 5px;
+    justify-content: center;
 }
 
 h1{
+    height: 60px;
     text-align: center;
     align-items: center;
     color: black;
-    line-height: 650px;
+    line-height: auto;
+    justify-content: center;
 }
 
 
