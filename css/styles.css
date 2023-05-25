@@ -18,8 +18,8 @@ nav{
 }
 
 main{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .liconteiner{
@@ -40,12 +40,17 @@ main{
     color: black;
 }
 
-.imgbienvenida{
-    height: auto;
-    width: 63.5%;
-    border: solid black;
-    margin: 5px;
+.bienvenida{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.imgbienvenida{
+    max-width: 100%;
+    max-height: 100%;
+    border: solid black;
 }
 
 h1{
@@ -66,6 +71,7 @@ body{
 .bigbox{
     height: 420px;
     width: 100%;
+    border: solid black;
 }
 
 .boxs{
@@ -81,7 +87,6 @@ body{
     text-align: center;
     align-items: center;
     width: 100%;
-    border: solid black;
 }
 
 .divmix{
@@ -90,12 +95,14 @@ body{
 }
 
 .subtitulosleft{
-    height: 25px;
+    height: 30px;
     margin: 5px;
     padding: 5px;
     color: black;
     text-align: left;
     font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .subtitulosright{
@@ -111,13 +118,17 @@ body{
     height: 250px;
     border-radius: 25px;
     margin: 25px;
+    border: solid black;
 }
 
 
 .divtext{
     height: 250px;
     margin: 25px;
-    justify-content: center;
+    justify-content: auto;
+    border: solid black;
+    word-wrap: break-word;
+    padding: 5px;
 }
 
 .parrafos{
