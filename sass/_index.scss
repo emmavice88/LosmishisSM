@@ -5,8 +5,8 @@
 }
 
 .body-all {
-    background: rgb(184, 153, 255);
-    background: linear-gradient(50deg, rgba(184, 153, 255, 1) 15%, rgba(1, 193, 204, 1) 88%);
+    background: rgb(1,193,204);
+    background: linear-gradient(30deg, rgba(1,193,204,1) 0%, rgba(184,153,255,1) 42%, rgba(1,193,204,1) 100%);
 }
 
 @mixin box($padding, $margin) {
