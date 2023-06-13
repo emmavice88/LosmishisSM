@@ -34,7 +34,7 @@
 }
 
 .form-submit {
-    @include box(10px 20px, null);
+    @include box(10px, 20px null);
     background-color: #4CAF50;
     color: white;
     border: none;

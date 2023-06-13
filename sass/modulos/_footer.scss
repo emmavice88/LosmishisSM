@@ -21,7 +21,7 @@ h3 {
     @include size(null, 50px);
     display: flex;
     justify-content: space-around;
-    @include box(10px, 15px);
+    @include box(15px, 10px);
     list-style: none;
 }
 
