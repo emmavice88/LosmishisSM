@@ -9,7 +9,7 @@
 }
 
 .header {
-    @include size(100%, 45px);
+    @include size(100%, 50px);
     @include box(0, 0);
 }
 
@@ -18,7 +18,7 @@
 }
 
 nav {
-    @include size(100%, null);
+    @include size(100%, auto);
     height: auto;
 }
 
@@ -28,7 +28,7 @@ main {
 
 .liconteiner {
     display: flex;
-    @include size(100%, null);
+    @include size(100%, auto);
     justify-content: space-between;
     align-items: center;
     border: solid black;

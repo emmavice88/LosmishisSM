@@ -47,18 +47,20 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     animation: marquesina 7s linear infinite;
+    overflow: hidden;
+    @include size(80%, 90px);
+    @include box(10px, 5px);
 }
 
 @keyframes marquesina {
     0% {
-        transform: translateX(100%);
+        transform: translateX(30%);
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-25%);
     }
 }
-
 
 .bigbox {
     @include size(100%, auto);
