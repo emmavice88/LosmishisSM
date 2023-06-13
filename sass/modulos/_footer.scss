@@ -1,24 +1,32 @@
+@mixin box($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+}
+
 h3 {
     color: black;
     font-size: 35px;
 }
 
 .redes {
-    height: 50px;
+    @include size(null, 50px);
 }
 
 .sociales {
-    height: 50px;
+    @include size(null, 50px);
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    margin: 15px;
+    @include box(10px, 15px);
     list-style: none;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    @include size(50px, 50px);
 
     &:hover {
         transform: scale(1.5);

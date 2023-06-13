@@ -1,9 +1,8 @@
-@charset "UTF-8";
 .header {
   width: 100%;
   height: 45px;
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-link:hover {
@@ -16,8 +15,8 @@ nav {
 }
 
 main {
-  margin: 5px;
   padding: 5px;
+  margin: 5px;
 }
 
 .liconteiner {
@@ -25,7 +24,6 @@ main {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
   border: solid black;
 }
 .liconteiner li {
@@ -67,8 +65,8 @@ main {
 
 h1 {
   height: 60px;
-  margin: 5px;
   padding: 10px;
+  margin: 5px;
   text-align: center;
   align-items: center;
   color: black;
@@ -92,24 +90,25 @@ h1 {
   }
 }
 .bigbox {
-  height: auto;
   width: 100%;
+  height: auto;
   border: solid black;
 }
 
 .divmix {
+  width: 100%;
   height: auto;
   display: flex;
 }
 
 .ampliar {
+  width: 100%;
   height: 25px;
   text-decoration: none;
   color: black;
   display: block;
   text-align: center;
   align-items: center;
-  width: 100%;
 }
 .ampliar:hover {
   transform: scale(1.5);
@@ -117,8 +116,8 @@ h1 {
 
 .subtitulosleft {
   height: 30px;
-  margin: 5px;
   padding: 5px;
+  margin: 5px;
   color: black;
   text-align: left;
   font-size: 30px;
@@ -128,24 +127,24 @@ h1 {
 
 .subtitulosright {
   height: 25px;
-  margin: 5px;
   padding: 5px;
+  margin: 5px;
   color: black;
   text-align: right;
   font-size: 30px;
 }
 
 .img {
-  height: 70%;
   width: 100%;
+  height: 70%;
   border-radius: 25px;
   margin: 25px;
   border: solid black;
 }
 
 .divtext {
-  height: auto;
   width: 100%;
+  height: auto;
   margin: 25px;
   justify-content: auto;
   border: solid black;
@@ -190,7 +189,7 @@ h1 {
 }
 
 .form {
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .form-label {
@@ -224,7 +223,7 @@ h1 {
   background: linear-gradient(47deg, rgb(184, 153, 255) 34%, rgb(1, 193, 204) 88%);
   border: 2px solid #dd2476;
   color: rgba(250, 250, 250, 0.8);
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .btn {
@@ -246,15 +245,15 @@ h1 {
 
 .card {
   border: 1px solid black;
-  margin-bottom: 10px;
   padding: 10px;
+  margin: 10px;
 }
 .card-item {
+  padding: 10px;
   margin: 5px;
-  padding: 10;
 }
 .card-item:nth-child(2) {
-  height: 100px; /* Tamaño de la imagen */
+  height: 100px;
 }
 @media (max-width: 992px) {
   .card {
@@ -291,8 +290,8 @@ h3 {
 }
 
 .logo {
-  height: 50px;
   width: 50px;
+  height: 50px;
 }
 .logo:hover {
   transform: scale(1.5);

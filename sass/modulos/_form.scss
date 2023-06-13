@@ -1,10 +1,20 @@
+@mixin box($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+}
+
 .containerform {
-    width: 300px;
+    @include size(300px, null);
     margin: 0 auto;
 }
 
 .form {
-    margin-bottom: 10px;
+    @include box(null, 10px);
 }
 
 .form-label {
@@ -13,7 +23,7 @@
 }
 
 .form-input {
-    width: 100%;
+    @include size(100%, null);
     padding: 5px;
     border: 1px solid #ccc;
 
@@ -24,7 +34,7 @@
 }
 
 .form-submit {
-    padding: 10px 20px;
+    @include box(10px 20px, null);
     background-color: #4CAF50;
     color: white;
     border: none;
