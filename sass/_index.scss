@@ -9,12 +9,21 @@
     background: linear-gradient(50deg, rgba(184, 153, 255, 1) 15%, rgba(1, 193, 204, 1) 88%);
 }
 
+@mixin box($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin size($with, $height){
+    width: $with;
+    height: $height;
+}
+
 .bienvenida {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    @include size(100%, 100%)
 }
 
 .imgbienvenida {
