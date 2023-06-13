@@ -199,6 +199,38 @@ body{
     }
 }
 
+   /* cards */
+
+.card {
+background: rgb(184,153,255);
+background: linear-gradient(47deg, rgba(184,153,255,1) 34%, rgba(1,193,204,1) 88%);
+border: 2px solid #dd2476;
+color: rgba(250, 250, 250, 0.8);
+margin-bottom: 2rem;
+}
+
+
+.btn {
+border: 5px solid;
+border-image-slice: 1;
+background: var(--gradient);
+-webkit-text-fill-color: white;
+border-image-source:  red; 
+text-decoration: none;
+transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+background: var(--gradient);
+-webkit-text-fill-color: #000000;
+border: 5px solid #15cc0eec; 
+box-shadow: black 1px 0 10px;
+text-decoration: underline;
+}
+
+
+   /* Redes */
+
 h3{
     color: black;
     font-size: 35px;
