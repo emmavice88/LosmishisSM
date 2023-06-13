@@ -1,0 +1,26 @@
+h3 {
+    color: black;
+    font-size: 35px;
+}
+
+.redes {
+    height: 50px;
+}
+
+.sociales {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px;
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+
+    &:hover {
+        transform: scale(1.5);
+    }
+}
