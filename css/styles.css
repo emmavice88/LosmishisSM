@@ -180,10 +180,12 @@ h1 {
 @media (max-width: 500px) {
   .img,
   .divtext {
-    margin: 10px;
+    width: 100%;
+    height: auto;
+    margin: 5px;
   }
 }
-@keyframes moveFromLeft {
+@keyframes mov-izq {
   0% {
     transform: translateX(-100%);
   }
@@ -191,7 +193,7 @@ h1 {
     transform: translateX(0);
   }
 }
-@keyframes moveFromRight {
+@keyframes mov-der {
   0% {
     transform: translateX(100%);
   }
@@ -199,20 +201,12 @@ h1 {
     transform: translateX(0);
   }
 }
-@keyframes moveFromBottom {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 .animacionizq {
-  animation: moveFromLeft 1s ease-in-out forwards;
+  animation: mov-izq 1.5s ease-in-out forwards;
 }
 
-.anim-divtext {
-  animation: moveFromRight 1s ease-in-out forwards;
+.animacionder {
+  animation: mov-der 1.5s ease-in-out forwards;
 }
 
 .containerform {
