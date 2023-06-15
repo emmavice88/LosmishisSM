@@ -14,12 +14,11 @@
 }
 
 .nav-link:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 
 nav {
     @include size(100%, auto);
-    height: auto;
 }
 
 main {

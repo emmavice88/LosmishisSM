@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -33,7 +33,7 @@
 }
 
 h1 {
-    @include size(null, 60px);
+    @include size(auto, 60px);
     @include box(10px, 5px);
     text-align: center;
     align-items: center;
@@ -132,13 +132,47 @@ h1 {
 @media (max-width: 900px) {
     .img,
     .divtext {
-        width: 100%;
+        @include size(100%, auto)
     }
 }
-
 @media (max-width: 500px) {
     .img,
     .divtext {
         margin: 10px;
     }
 }
+
+@keyframes moveFromLeft {
+    0% {
+    transform: translateX(-100%);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+
+@keyframes moveFromRight {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+
+@keyframes moveFromBottom {
+    0% {
+    transform: translateY(100%);
+    }
+    100% {
+    transform: translateY(0);
+    }
+}
+
+.animacionizq {
+    animation: moveFromLeft 1s ease-in-out forwards;
+}
+
+.anim-divtext {
+    animation: moveFromRight 1s ease-in-out forwards;
+} 

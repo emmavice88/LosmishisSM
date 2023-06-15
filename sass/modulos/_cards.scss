@@ -39,14 +39,14 @@
 .btn {
     border: 5px solid;
     border-image-slice: 1;
-    background: var(--gradient);
-    -webkit-text-fill-color: white;
+    background: rgb(184,153,255);
+    background: linear-gradient(50deg, rgba(184,153,255,1) 11%, rgba(1,193,204,1) 86%);
+        -webkit-text-fill-color: white;
     border-image-source: red;
     text-decoration: none;
     transition: all .4s ease;
 
     &:hover, &:focus {
-        background: var(--gradient);
         -webkit-text-fill-color: #000000;
         border: 5px solid #15cc0eec;
         box-shadow: black 1px 0 10px;

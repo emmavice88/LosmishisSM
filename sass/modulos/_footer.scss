@@ -15,6 +15,7 @@ h3 {
 
 .redes {
     @include size(null, 50px);
+    margin-bottom: 45px;
 }
 
 .sociales {
@@ -29,6 +30,6 @@ h3 {
     @include size(50px, 50px);
 
     &:hover {
-        transform: scale(1.5);
+        transform: scale(1.7);
     }
 }
