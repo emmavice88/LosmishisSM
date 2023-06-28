@@ -1,3 +1,8 @@
+.subtituloform{
+    text-align: center;
+    margin-top: 5px;
+}
+
 @mixin box($padding, $margin){
     padding: $padding;
     margin: $margin;
@@ -10,7 +15,9 @@
 
 .containerform {
     @include size(18rem, null);
+    padding: 10px;
     margin: 0 auto;
+    border: solid black;
 }
 
 .form {

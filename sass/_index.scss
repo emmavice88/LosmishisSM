@@ -65,11 +65,12 @@ h1 {
 .bigbox {
     @include size(100%, auto);
     border: solid black;
-}
+    }
 
 .divmix {
     @include size(100%, auto);
     display: flex;
+    flex-wrap: wrap;
 
     @media (min-width: 480px) and (max-width: 900px) {
         flex-direction: column;
@@ -127,6 +128,7 @@ h1 {
     font-size: 20px;
     justify-content: center;
     text-align: justify;
+    margin: 25px;
 }
 
 @media (max-width: 900px) {
@@ -163,9 +165,9 @@ h1 {
 
 
 .animacionizq {
-    animation: mov-izq 1.5s ease-in-out forwards;
+    animation: mov-izq 1.7s ease-in-out forwards;
 }
 
 .animacionder {
-    animation: mov-der 1.5s ease-in-out forwards;
+    animation: mov-der 1.7s ease-in-out forwards;
 } 
