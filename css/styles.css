@@ -211,6 +211,15 @@ h1 {
   animation: mov-der 1.7s ease-in-out forwards;
 }
 
+.vete {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
 .subtituloform {
   text-align: center;
   margin-top: 5px;
@@ -329,6 +338,26 @@ h3 {
 }
 .logo:hover {
   transform: scale(1.7);
+}
+
+.lista {
+  list-style: none;
+}
+
+.minibox {
+  border: solid black;
+  padding: 15px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.subtituloslist {
+  color: black;
+  text-align: left;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline black;
 }
 
 /*# sourceMappingURL=styles.css.map */
