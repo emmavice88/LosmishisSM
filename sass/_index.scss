@@ -118,10 +118,11 @@ h1 {
 .divtext {
     @include size(100%, auto);
     margin: 25px;
-    justify-content: auto;
     border: solid black;
     word-wrap: break-word;
     padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .parrafos {
